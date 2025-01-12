@@ -83,17 +83,81 @@ CMakeFiles/go_game.dir/src/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_game.dir/src/board.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wang/projects/go/src/board.cpp -o CMakeFiles/go_game.dir/src/board.cpp.s
 
+CMakeFiles/go_game.dir/src/controller.cpp.o: CMakeFiles/go_game.dir/flags.make
+CMakeFiles/go_game.dir/src/controller.cpp.o: /Users/wang/projects/go/src/controller.cpp
+CMakeFiles/go_game.dir/src/controller.cpp.o: CMakeFiles/go_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/go_game.dir/src/controller.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_game.dir/src/controller.cpp.o -MF CMakeFiles/go_game.dir/src/controller.cpp.o.d -o CMakeFiles/go_game.dir/src/controller.cpp.o -c /Users/wang/projects/go/src/controller.cpp
+
+CMakeFiles/go_game.dir/src/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/go_game.dir/src/controller.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wang/projects/go/src/controller.cpp > CMakeFiles/go_game.dir/src/controller.cpp.i
+
+CMakeFiles/go_game.dir/src/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_game.dir/src/controller.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wang/projects/go/src/controller.cpp -o CMakeFiles/go_game.dir/src/controller.cpp.s
+
+CMakeFiles/go_game.dir/src/game.cpp.o: CMakeFiles/go_game.dir/flags.make
+CMakeFiles/go_game.dir/src/game.cpp.o: /Users/wang/projects/go/src/game.cpp
+CMakeFiles/go_game.dir/src/game.cpp.o: CMakeFiles/go_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/go_game.dir/src/game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_game.dir/src/game.cpp.o -MF CMakeFiles/go_game.dir/src/game.cpp.o.d -o CMakeFiles/go_game.dir/src/game.cpp.o -c /Users/wang/projects/go/src/game.cpp
+
+CMakeFiles/go_game.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/go_game.dir/src/game.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wang/projects/go/src/game.cpp > CMakeFiles/go_game.dir/src/game.cpp.i
+
+CMakeFiles/go_game.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_game.dir/src/game.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wang/projects/go/src/game.cpp -o CMakeFiles/go_game.dir/src/game.cpp.s
+
+CMakeFiles/go_game.dir/src/main.cpp.o: CMakeFiles/go_game.dir/flags.make
+CMakeFiles/go_game.dir/src/main.cpp.o: /Users/wang/projects/go/src/main.cpp
+CMakeFiles/go_game.dir/src/main.cpp.o: CMakeFiles/go_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/go_game.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_game.dir/src/main.cpp.o -MF CMakeFiles/go_game.dir/src/main.cpp.o.d -o CMakeFiles/go_game.dir/src/main.cpp.o -c /Users/wang/projects/go/src/main.cpp
+
+CMakeFiles/go_game.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/go_game.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wang/projects/go/src/main.cpp > CMakeFiles/go_game.dir/src/main.cpp.i
+
+CMakeFiles/go_game.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_game.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wang/projects/go/src/main.cpp -o CMakeFiles/go_game.dir/src/main.cpp.s
+
+CMakeFiles/go_game.dir/src/player.cpp.o: CMakeFiles/go_game.dir/flags.make
+CMakeFiles/go_game.dir/src/player.cpp.o: /Users/wang/projects/go/src/player.cpp
+CMakeFiles/go_game.dir/src/player.cpp.o: CMakeFiles/go_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/go_game.dir/src/player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_game.dir/src/player.cpp.o -MF CMakeFiles/go_game.dir/src/player.cpp.o.d -o CMakeFiles/go_game.dir/src/player.cpp.o -c /Users/wang/projects/go/src/player.cpp
+
+CMakeFiles/go_game.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/go_game.dir/src/player.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wang/projects/go/src/player.cpp > CMakeFiles/go_game.dir/src/player.cpp.i
+
+CMakeFiles/go_game.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_game.dir/src/player.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wang/projects/go/src/player.cpp -o CMakeFiles/go_game.dir/src/player.cpp.s
+
 # Object files for target go_game
 go_game_OBJECTS = \
-"CMakeFiles/go_game.dir/src/board.cpp.o"
+"CMakeFiles/go_game.dir/src/board.cpp.o" \
+"CMakeFiles/go_game.dir/src/controller.cpp.o" \
+"CMakeFiles/go_game.dir/src/game.cpp.o" \
+"CMakeFiles/go_game.dir/src/main.cpp.o" \
+"CMakeFiles/go_game.dir/src/player.cpp.o"
 
 # External object files for target go_game
 go_game_EXTERNAL_OBJECTS =
 
 go_game: CMakeFiles/go_game.dir/src/board.cpp.o
+go_game: CMakeFiles/go_game.dir/src/controller.cpp.o
+go_game: CMakeFiles/go_game.dir/src/game.cpp.o
+go_game: CMakeFiles/go_game.dir/src/main.cpp.o
+go_game: CMakeFiles/go_game.dir/src/player.cpp.o
 go_game: CMakeFiles/go_game.dir/build.make
 go_game: CMakeFiles/go_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable go_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wang/projects/go/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable go_game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

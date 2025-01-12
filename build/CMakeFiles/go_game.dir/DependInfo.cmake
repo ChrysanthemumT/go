@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/wang/projects/go/src/board.cpp" "CMakeFiles/go_game.dir/src/board.cpp.o" "gcc" "CMakeFiles/go_game.dir/src/board.cpp.o.d"
+  "/Users/wang/projects/go/src/controller.cpp" "CMakeFiles/go_game.dir/src/controller.cpp.o" "gcc" "CMakeFiles/go_game.dir/src/controller.cpp.o.d"
+  "/Users/wang/projects/go/src/game.cpp" "CMakeFiles/go_game.dir/src/game.cpp.o" "gcc" "CMakeFiles/go_game.dir/src/game.cpp.o.d"
+  "/Users/wang/projects/go/src/main.cpp" "CMakeFiles/go_game.dir/src/main.cpp.o" "gcc" "CMakeFiles/go_game.dir/src/main.cpp.o.d"
+  "/Users/wang/projects/go/src/player.cpp" "CMakeFiles/go_game.dir/src/player.cpp.o" "gcc" "CMakeFiles/go_game.dir/src/player.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

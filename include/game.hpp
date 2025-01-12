@@ -13,5 +13,5 @@ private:
   std::shared_ptr<Board> board;
   std::unique_ptr<Player> p1;
   std::unique_ptr<Player> p2;
-  Player **turnPlayer;
+  Player *turnPlayer;
 };
