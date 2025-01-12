@@ -1,6 +1,7 @@
 # Build directory
 build/
 out/
+.cache/
 
 # Compiled files
 *.o
