@@ -7,6 +7,16 @@ void Controller::run() {
   while (1) {
     int x, y;
     scanf("%d %d", &x, &y);
-    game->makeMove(x, y);
+    if (x == -1 && y == -1) {
+      bool agreedToPass = game->pass();
+      if (agreedToPass) {
+        // end game
+        game->endGame();
+        break;
+      }
+    } else {
+      game->resetPass();
+      game->makeMove(x, y);
+    }
   }
 }

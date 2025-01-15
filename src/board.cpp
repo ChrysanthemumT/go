@@ -54,7 +54,7 @@ int Board::captureStones(Player &player) {
                                         std::vector<int>(board.size(), 0));
   for (int i = 0; i < board.size(); i++) {
     for (int j = 0; j < board.size(); j++) {
-      if (!visited[i][j] && board[i][j]) {
+      if (!visited[i][j] && board[i][j] && board[i][j] != player.getColour()) {
         auto [libertyFound, size] = floodfill(visited, cc, {i, j});
         if (!libertyFound) {
           captured += size;
@@ -79,11 +79,32 @@ int Board::captureStones(Player &player) {
   return captured;
 }
 
+bool Board::suicide(Player &player, std::pair<int, int> curr) {
+  int x = curr.first, y = curr.second;
+  bool libertyFound = false;
+  for (int i = 0; i < 4; i++) {
+    int nv = x + dv[i], nh = y + dh[i];
+    if (nv < 0 || nh < 0 || nv >= board.size() || nh >= board.size())
+      continue;
+    if (board[nv][nh] == 0) {
+      libertyFound |= 1;
+      break;
+    }
+  }
+  return !libertyFound;
+}
+
 int Board::placeStones(Player &player, std::pair<int, int> coord) {
+  int x = coord.first, y = coord.second;
   if (!board[coord.first][coord.second]) {
     board[coord.first][coord.second] = player.getColour();
   }
   int captured = captureStones(player);
+  if (!captured && suicide(player, coord)) {
+    board[x][y] = 0;
+    draw();
+    return -1;
+  }
   draw();
   return captured;
 }

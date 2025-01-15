@@ -12,7 +12,11 @@ private:
   std::vector<std::vector<int>> board;
   std::bitset<25> bi;
   int captureStones(Player &player);
+  std::pair<bool, bool> passState;
+  bool suicide(Player &player, std::pair<int, int>);
   std::pair<bool, int> floodfill(std::vector<std::vector<int>> &, int,
                                  std::pair<int, int>);
   void draw();
+  void pass(Player &player);
+  void resetPass();
 };
