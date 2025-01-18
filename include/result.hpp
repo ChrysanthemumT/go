@@ -10,6 +10,7 @@ public:
   Player *getP1();
   Player *getP2();
   Board getBoard();
+  void determineWinner();
 
 private:
   OUTCOME outcome;

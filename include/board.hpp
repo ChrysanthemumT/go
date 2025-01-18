@@ -7,6 +7,10 @@ class Board {
 public:
   Board(size_t size) : board(size, std::vector<int>(size, 0)) {};
   int placeStones(Player &player, std::pair<int, int> coord);
+  int findDeadGroup(Player &player);
+  int countTerritory(Player &player);
+  std::vector<std::vector<int>> getBoard();
+  int size();
 
 private:
   std::vector<std::vector<int>> board;

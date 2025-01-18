@@ -5,7 +5,9 @@ public:
   int getStones() const;
   void capture(int cap);
   void increaseScore(int points);
+  int getPrisoners();
   int getColour();
+  int getScore();
 
 private:
   int stones;

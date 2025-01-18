@@ -13,6 +13,8 @@ public:
   void resetPass();
   void reset();
   std::unique_ptr<Result> endGame();
+  Player *getTurnPlayer();
+  std::vector<std::vector<int>> getBoard();
 
 private:
   std::shared_ptr<Board> board;

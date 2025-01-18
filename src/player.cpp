@@ -15,3 +15,7 @@ int Player::getStones() const { return stones; };
 void Player::capture(int cap) { captured += cap; }
 
 void Player::increaseScore(int s) { score += s; }
+
+int Player::getPrisoners() { return captured; }
+
+int Player::getScore() { return score; }

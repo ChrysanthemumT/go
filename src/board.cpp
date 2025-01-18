@@ -105,6 +105,14 @@ int Board::placeStones(Player &player, std::pair<int, int> coord) {
     draw();
     return -1;
   }
-  draw();
+  // draw();
   return captured;
 }
+
+int Board::findDeadGroup(Player &player) { return -1; }
+
+int Board::countTerritory(Player &player) { return -1; }
+
+std::vector<std::vector<int>> Board::getBoard() { return board; }
+
+int Board::size() { return board.size(); }
